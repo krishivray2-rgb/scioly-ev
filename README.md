@@ -5,25 +5,19 @@ battery-powered vehicle that must travel a target distance and stop accurately.
 
 ## What it does
 
-[FILL IN: 2–3 sentences. e.g., "Drives the vehicle a target distance, decelerates
-on a calibrated braking profile, and stops within ±X cm of the goal across
-competition trials."]
-
-## Approach
-
-- **Platform:** [FILL IN: microcontroller, e.g., Arduino Nano / mBot / etc.]
-- **Distance control:** [FILL IN: encoder-based? time-based? hybrid?]
-- **Braking:** [FILL IN: how the vehicle decides when to brake]
-- **Calibration:** [FILL IN: how you tune for surface friction, battery voltage]
+Drives the vehicle a target distance, decelerates
+on a calibrated braking profile, and stops within 3cm of the goal target in
+competition.
 
 ## Results
 
-[FILL IN: best competition placement, distance accuracy, anything notable]
+Placed 1st at multiple high-level invitationals (including 1st at a national-level tournament).
 
 ## Hardware
 
-[FILL IN: list]
-
+- **MCU:** Raspberry Pi Pico 2 (RP2350) on TektiteRotEv platform
+- **Sensors:** quadrature encoders (×2), SPI IMU
+  
 ## License
 
 MIT
